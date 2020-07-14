@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.static('website'));
 
 const projectData = {}
-const API_KEY = "3d01e76b335a8f75fd18a0ee7dd1b25d";
 
 app.get('/all', getAllData);
 function getAllData(req, res) {
